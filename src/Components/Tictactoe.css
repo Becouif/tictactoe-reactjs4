@@ -23,3 +23,37 @@
   overflow:hidden;
   display: inline-block;
 }
+
+.title {
+  font-family: "Press Start 2P", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 3.0rem;
+}
+
+.title0 {
+  color: rgb(82, 39, 39);
+}
+
+.title1 {
+  color: rgb(22, 122, 8);
+}
+
+.title2 {
+  color: #663d3d;
+}
+
+.tool {
+  color: rgb(6, 54, 82);
+}
+
+.status {
+  background: rgb(253, 253, 227);
+  font-family: "Nunito Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100,
+    "YTLC" 500;
+}
