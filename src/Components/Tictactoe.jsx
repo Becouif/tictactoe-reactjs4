@@ -60,7 +60,7 @@ function Tictactoe() {
 
   return (
     <div>
-      <h1 className="title"><span className="title0">Tic</span><span className="title1">Tac</span><span className="title2">Toe</span> made with <span className="tool">React</span></h1>
+      <h1 className="title"><span className="title0">Tic</span><span className="title1">Tac</span><span className="title2">Toe</span> </h1>
 
       <div className="board">
         <div className="status">{status}</div>
