@@ -30,6 +30,7 @@ function Tictactoe() {
 
   function handleClick(input){
     const squares = [...board];
+    console.log(squares.length);
 
     if(calculateWinner(squares) || squares[input]) {
       return;
@@ -50,6 +51,11 @@ function Tictactoe() {
   const renderSquare = (i) => (
     <button className="square" onClick={()=> handleClick(i)}>{board[i]}</button>
   );
+
+  const resetGame = () => {
+    setBoard(Array(9).fill(null));
+    setXIsNext(true);
+  }
 
 
   return (
@@ -74,6 +80,7 @@ function Tictactoe() {
           {renderSquare(8)}
         </div>
       </div>
+      <button className="resetbtn" onClick={resetGame}>Reset</button>
     </div>
 
   )
